@@ -1,0 +1,18 @@
+Lab 5
+
+Part 2:
+
+e)
+Greg and Lilly: 
+ - rs1333040: 1.24x increased myocardial infarction risk, 1.29x increased aneurysm risk
+ - rs10757274: ~ 1.2x increased risk for heart risk
+ - rs2383206: 1.4x increased risk for heart disease 
+ - rs2383207: increased risk for heart disease
+
+
+f)
+rs9939609 piqued my interest
+according to SNPedia.com, this is the 'Fat Gene'
+this gene triggers obesity and type-2 diabetes
+unfortunately, this gene is found in both Greg and Lilly
+on Chromosome 16 

@@ -1,0 +1,104 @@
+part1
+def is_valid_humanlocus(string):
+	#if p in string, or q in string and . in string
+		#if spliter = "q" or spliter = "p" 
+			#solution1: split(spliter) or split(spliter)
+						#chr = 
+						#remaing = split_list[1]
+			#solution2: arm_index = string.find("p") or arm_index = string.find("q")
+						#chr = string[0:arm_index]
+						#remaining = string[(arm_index + 1): length(string)]
+			
+			#if chr <= 22 or chr >= 1 or chr == "X" or "Y"
+				#solution 1: check remaining == float
+				#solution 2: remaining.split(".")
+				             #to get band and subband, check whether they're valid
+   			#else
+   				#return false
+    #else:
+    	#return false
+
+assert is_valid_humanlocus("6p21.3")
+
+mystring = "21p11.2"
+arm_index = 2
+mystring[]
+
+
+
+part2.a
+strip() , rstrip()
+first_list=  line.split("chr")
+second_list = first_list[1].split("-")
+second_list[1].split("(")
+split(",")
+
+
+part2.b
+dict = {"ID":["rs3094315","rs111111",...],
+        "chr":[1,2,...],
+        "position":[1000,1009,...],
+        "SNP":["AG","AA",...]}
+
+
+par2.c
+global_start = 
+global_end = 
+global_max =  # number of SNP in (global_start,global_end)
+local_start = 
+local_end = 
+local_max = #number of SNP in (local_start,local_end)
+for index in range(len(ID_list)):
+    myID = dict["ID"][index]
+    mychr = dict["chr"][index]
+    ...
+    ...
+    ...
+
+	... if local_max > global_max
+	    	global_max = local_max
+	    	global_start = 
+	    	global_end = 
+	...
+
+
+chr position Lilly's SNP Greg's SNP
+10 56 AA AC 10
+10 100 AA AA 11
+10 104 TT TT 12 
+10 120 AT AA 13
+10 130 AA AA 14
+10 140 AA AA 15
+10 155 TT TT 16
+10 165 AC CC 17
+
+
+index = 10
+
+index = 11
+local_start = 100
+local_end = 100
+local_max = 1
+if local_max > global_max (=1)
+else
+ continue (satisified at index 11)
+
+index = 12
+local_end = 104
+if ("TT" == TT):
+   local_max = local_max + 1
+
+	if local_max > global_max(=1)
+		global_max = local_max
+		global_start = local_start
+		global_end = local_end
+
+
+index = 13
+"AT" != "AA" ("AT" is equal to "TA")
+continue
+
+
+
+
+
